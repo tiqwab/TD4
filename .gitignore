@@ -1,6 +1,7 @@
 # ref. http://www.alterawiki.com/wiki/Version_Control
 # ref. https://github.com/thomasrussellmurphy/quartus-DE0-project/blob/master/.gitignore
 
+# Quartus
 *_generation_script*
 *_inst.vhd
 *.bak
@@ -33,3 +34,9 @@
 */timing/
 */testbench/
 */*_sim/
+
+# ModelSim
+work/
+*.mti
+*.mpf
+*.wlf
