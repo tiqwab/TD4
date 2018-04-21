@@ -35,6 +35,12 @@
 */testbench/
 */*_sim/
 
+/db/
+/devkits/
+/incremental_db/
+/output_files/
+c5_pin_model_dump.txt
+
 # ModelSim
 work/
 *.mti

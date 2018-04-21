@@ -2,11 +2,11 @@ module TD4(
     input CLK,
     input RST,
     input [3:0] SW, // IN
-    output [3:0] HEX0, HEX1, HEX2, HEX3 // OUT
+    output [6:0] HEX0, HEX1, HEX2, HEX3 // OUT
 );
 
 wire clr_n, en1hz;
-wire [4:0] addr, out;
+wire [3:0] addr, out;
 wire [7:0] data;
 
 assign clr_n = ~RST;
