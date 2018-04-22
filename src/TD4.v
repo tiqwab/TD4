@@ -15,7 +15,8 @@ assign clr_n = ~RST;
 CLK1HZ clk1hz(CLK, clr_n, en1hz);
 
 // ROM
-LCHIKA_ROM(addr, clr_n, data);
+// LCHIKA_ROM(addr, clr_n, data);
+RAMEN_ROM(addr, clr_n, data);
 
 // CPU
 TD4_BASE td4(en1hz, clr_n, SW, data, out, addr);
